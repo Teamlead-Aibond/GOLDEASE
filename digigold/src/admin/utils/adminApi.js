@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000/api'
+const API_BASE = '/api'
 
 function getAdminToken() {
   return localStorage.getItem('goldease_admin_token')

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_URL = 'http://localhost:5000/api/gold/price'
+const API_URL = '/api/gold/price'
 
 export default function useGoldPrice() {
   const [goldPrice, setGoldPrice] = useState(null)
